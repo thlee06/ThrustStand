@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/theod/Documents/VsCode/Avol/ThrustStand -type f ! -path ./.pio/* ! -path ./.git/*)",
+      "Bash(find /c/Users/theod/Documents/VsCode/Avol/ThrustStand -type f -name *.cpp -o -name *.h -o -name *.ino -o -name *.py -o -name *.txt -o -name *.md -o -name *.json)",
+      "Bash(python3:*)",
+      "Bash(python3.exe /tmp/gen_html.py)",
+      "Bash(py /tmp/gen_html.py)",
+      "Bash(python /tmp/gen_html.py)",
+      "Bash(python:*)"
+    ]
+  }
+}
