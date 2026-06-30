@@ -8,4 +8,5 @@ endif()
 FILE(GLOB_RECURSE app_sources ${CMAKE_SOURCE_DIR}/src/${APP_DIR}/*.*)
 
 idf_component_register(SRCS ${app_sources}
-                        INCLUDE_DIRS "${CMAKE_SOURCE_DIR}/include")
+                        INCLUDE_DIRS "${CMAKE_SOURCE_DIR}/include"
+                        REQUIRES nvs_flash)
