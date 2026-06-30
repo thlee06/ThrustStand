@@ -7,7 +7,10 @@
       "Bash(python3.exe /tmp/gen_html.py)",
       "Bash(py /tmp/gen_html.py)",
       "Bash(python /tmp/gen_html.py)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(py:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
